@@ -1,34 +1,34 @@
 # Speer Technologies iOS assessment
 
 
-## Overview
+## Descripción
 
-The goal of this assessment is to build a basic iOS application which demonstrates common tasks such as fetching data, parsing model entities from JSON, UI, and navigation. You may write the app using what you're most comfortable with, whether it's Storyboards, pure UIKit, or SwiftUI. You are also free to code in either Swift or Objective-C.
+El objetivo de esta evaluación es crear una aplicación iOS básica que demuestre tareas comunes, como la obtención de datos, el análisis de entidades de modelo de JSON, la interfaz de usuario y la navegación. Puede escribir la aplicación usando lo que le resulte más cómodo, ya sean guiones gráficos, UIKit puro o SwiftUI. También puede codificar en Swift u Objective-C.
 
 
-### Requirements
+### Requerimientos
 
-For this asessment you'll need to familiarize yourself with parts of the [GitHub REST API](https://docs.github.com/en/rest). The required features we'd like to see built are:
+Para esta evaluación, deberá familiarizarse con partes de la [API REST de GitHub] (https://docs.github.com/en/rest). Las características requeridas que nos gustaría ver construidas son:
 
-1. A search bar that enables us to fetch GitHub user profiles by username:
-    - If no user exists with the username provided, present a "Not found" view
-    - If the user exists, present a view with that user's:
+1. Una barra de búsqueda que nos permite obtener perfiles de usuario de GitHub por nombre de usuario:
+    - Si no existe ningún usuario con el nombre de usuario proporcionado, presente una vista "Not Found"
+    - Si el usuario existe, presente una vista con dicho usuario:
         1. Avatar
         2. Username
         3. Name
         4. Description
         5. Follower count, i.e. *X followers*
         6. Following count, i.e. *X following*
-2. A view which displays a list of the user's followers, as well as a view for who they're following 
-    - We should be able to navigate to this view by tapping on the follower/following counts 
-    - If a user in this list is tapped, it should navigate us to their profile view
-3. The ability to navigate backwards through the navigation stack
+2. Una vista que muestra una lista de los seguidores/siguiendo del usuario.
+    - Deberíamos poder navegar a esta vista tocando los recuentos de seguidores/siguientes
+    - Si se toca un usuario en esta lista, debería llevarnos a su vista de perfil, es decir, acceder al perfil de un seguidor o siguiendo.
+3. La capacidad de navegar hacia atrás a través de la pila de navegación.
 
-Show us what you can do in no more than 24 hours. Keep a log of the time spent and include it with your submission. Note that there are no designs to follow for this assessment, so you have creative freedom when it comes to the layout and so on.
+Muéstranos lo que puedes hacer en no más de 24 horas. Mantenga un registro del tiempo dedicado e inclúyalo con su presentación (README.md). Tenga en cuenta que no hay diseños a seguir para esta evaluación, por lo que tiene libertad creativa en lo que respecta al diseño, etc.
 
 ##### Bonus features
 
-These features aren't mandatory, but if you have extra time and want to stand out feel free to add any of the following:
+Estas funciones no son obligatorias, pero si tiene más tiempo y desea destacar, no dude en agregar cualquiera de las siguientes:
 
 - Skeleton screens
 - Pull to refresh
@@ -37,7 +37,7 @@ These features aren't mandatory, but if you have extra time and want to stand ou
 
 ### Grading
 
-This exercise will be graded on a number of criteria including, but not limited to: 
+Este ejercicio se calificará según una serie de criterios que incluyen, entre otros:
 - Clean, readable, and well documented code
 - Adherence to the SOLID principles
 - Utilization of an architectural pattern, e.g. MVC, MVVM, VIPER
@@ -45,9 +45,9 @@ This exercise will be graded on a number of criteria including, but not limited 
 
 ### Submission
 
-Please commit all of your work to a *private* GitHub repository. When you are finished, invite the [ffranqui-at-speer](https://github.com/ffranqui-at-speer) account and email a link of the repository to [clement.shum@speer.io](mailto:clement.shum@speer.io) with the subject line:
+Confirme todo su trabajo en un repositorio *privado* de GitHub. Cuando haya terminado, invite a la cuenta [espinozasenior](https://github.com/espinozasenior) y envíe por correo electrónico un enlace del repositorio a [lespinoza@megabitefood.com](mailto: lespinoza@megabitefood.com) con el asunto:
 
 **iOS Developer Assessment - [Your Name]**.
 
 
-#### Goodluck!
+#### Buena suerte!
